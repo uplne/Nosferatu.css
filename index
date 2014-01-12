@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Module library</title>
+<link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
+</head>
+
+<body>
+	<div class="menu is_active">
+		<header class="menu__header">
+			<a class="menu__logo" href=""><img src="assets/images/tm-logo.gif" alt="" /></a>
+		</header>
+		<nav class="menu__nav">
+			<ul class="navlist">
+				<li>
+					<a href="" class="menunav__link">Lists</a>
+				</li>
+				<li>
+					<a href="" class="menunav__link">Pagination</a>
+				</li>
+				<li>
+					<a href="" class="menunav__link is_active">Tables</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div class="main">
+		<header class="main__header">
+			<h1>Lists</h1>
+		</header>
+		<div class="main__content">
+			<h2>Navlists</h2>
+			<p class="main__text">Lists that are behaving like navigation lists.</p>
+		</div>
+	</div>
+</body>
+</html>

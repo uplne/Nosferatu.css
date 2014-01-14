@@ -1,0 +1,42 @@
+// Modules related to menu component
+
+.menu {
+	top: 0;
+	position: fixed;
+	width: $menu-width;
+	height: 100%;
+	background-color: $menu-bg;
+
+	&.is_active {
+		z-index: 100;
+	}
+}
+
+.menu__logo {
+	display: block;
+	padding: 20px 0;
+	text-align: center;
+	border-bottom: 1px solid $light-grey;
+}
+
+.menunav__link {
+	@include font-size($base-font-size, false);
+
+	display: block;
+	padding: 0 10px;
+	font-weight: normal;
+	line-height: 40px;
+	text-decoration: none;
+	color: $menunav-link;
+	border-bottom: $menunav-border;
+
+	&.is_active,
+	&.is_active:hover {
+		color: #ffffff;
+		background-color: $menunav-link-hover;
+	}
+
+	&:hover {
+		background-color: $light-grey;	
+	}
+}

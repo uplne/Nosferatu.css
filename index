@@ -26,6 +26,9 @@
 		<div class="main__content">
 			<h2>Button default</h2>
 			<p class="main__text">Lists that are behaving like navigation lists.</p>
+			<div class="box">
+				<a href="#nogo" class="btn--default">Default button</a>
+			</div>
 		</div>
 	</div>
 </body>

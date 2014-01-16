@@ -9,12 +9,9 @@
     white-space: nowrap;
     font-family: inherit;
     font-size: 100%;
+    text-decoration: none;
     cursor: pointer;
     border: none;
     margin: 0;
     padding: 0;
-
-    &:hover{
-        text-decoration: none;
-    }
 }

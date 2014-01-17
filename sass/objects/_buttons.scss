@@ -28,6 +28,8 @@ $btn-radius: 4px;
  *
  * Extending %btn abstraction.
  */
+
+.btn,
 %btn {
     display: inline-block;
     vertical-align: middle;

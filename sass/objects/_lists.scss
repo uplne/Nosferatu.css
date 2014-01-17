@@ -15,16 +15,6 @@
     margin: 0;
 }
 
-/**
- * Horizontal list.
- *
- * Can be a navigation block.
- *
-    <ul class="navlist--h">
-        <li></li>
-        <li></li>
-    </ul>
- */
 .navlist--h {
     @extend %notlist;
 

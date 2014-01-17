@@ -40,6 +40,10 @@ $btn-radius: 4px;
     cursor: pointer;
     border: none;
     padding: 0;
+
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 .btn {
@@ -47,14 +51,12 @@ $btn-radius: 4px;
 
     padding: 0 1em;
     line-height: 3;
+
+    /**
+     * Default settings. Specific to default button.
+     * If we want to keep .btn as abstraction stuff below should be deleted.
+     */
     background-color: $btn-default-bg;
     color: $btn-default-color;
     border-radius: $btn-radius;
-}
-
-.btn--medium {
-    @extend .btn;
-
-    padding: 0 2em;
-    line-height: 4;
 }

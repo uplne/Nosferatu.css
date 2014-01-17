@@ -1,4 +1,4 @@
-ovo.css
+OVO Library
 =======
 
-ovo.css module library
+OVO module library

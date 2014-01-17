@@ -107,9 +107,7 @@ body {
  *
  * Extending %btn abstraction.
  */
-.btn, .btn--medium,
-.btn,
-.btn--medium {
+.btn, .btn--medium {
   display: inline-block;
   vertical-align: middle;
   white-space: nowrap;

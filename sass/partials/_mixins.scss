@@ -16,6 +16,9 @@
 /**
  * Font size with vertical rhytm.
  * Thanks to Harry Roberts (inuit.css).
+ *
+ * Default font size across browesers is 16px = 1rem. If you want to
+ * set different default (base) font size set font-size for HTML element.
  */
 @mixin font-size($font-size, $line-height:true){
     font-size: $font-size;

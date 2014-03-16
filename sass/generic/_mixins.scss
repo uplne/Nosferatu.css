@@ -68,3 +68,34 @@
         border-bottom : $arrow-width solid $arrow-color;
     }
 }
+
+/**
+ * rwd design
+ *
+ * Mixin generate code for rwd media queries.
+ *
+ * Dimensions for rwd design in _dimensions.scss
+ */
+@mixin rwd($min-w: false, $max-w: false) {
+
+    // No min-width
+    @if $min-w == false {
+        @media only screen and (max-width: $max-w - 1) {
+             @content;
+        }
+    }
+
+    // No max-width
+    @else if $max-w == false {
+        @media only screen and (min-width: $min-w - 1) {
+             @content;
+        }
+    }
+
+    // From min-width to max-width
+    @else {
+        @media only screen and (min-width: ($min-w)) and (max-width: $max-w - 1) {
+            @content;
+        }
+    }
+}

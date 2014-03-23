@@ -15,7 +15,7 @@
     margin: 0;
 }
 
-.navlist--h {
+.uilist--h {
     @extend %notlist;
 
     > li {
@@ -23,9 +23,9 @@
     }
 }
 
-// Equidistant navlist
-.navlist--spread {
-    @extend .navlist;
+// Equidistant uilist
+.uilist--spread {
+    @extend .uilist;
 
     font-size: 0.1px;
     line-height: 0;

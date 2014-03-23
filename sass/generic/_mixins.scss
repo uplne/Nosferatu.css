@@ -4,6 +4,9 @@
 
 /**
  * Vendor prefixes
+ *
+ * I keep this here for now but I encourage you to use grunt autoprefixer
+ * for managing vendor prefixes https://github.com/nDmitry/grunt-autoprefixer
  */
 @mixin vendor($style, $value...) {
     -webkit-#{$style}: $value;
